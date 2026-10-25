@@ -1,0 +1,10 @@
+{
+  "claim_id": "07",
+  "diagnosis": "dengue",
+  "genuine": true,
+  "sealed": true,
+  "forgery_type": null,
+  "variant": null,
+  "changed_document": null,
+  "description": "A genuine claim where every document carries a valid QR seal"
+}

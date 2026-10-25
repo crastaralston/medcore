@@ -1,0 +1,9 @@
+{
+  "claim_id": "06_tripled_pharmacy_qty_dengue",
+  "diagnosis": "dengue",
+  "genuine": false,
+  "forgery_type": "F2",
+  "variant": "pharmacy_qty",
+  "changed_document": "pharmacy_bill.pdf",
+  "description": "Every pharmacy quantity tripled, with a matching total (not expected to be caught yet)"
+}

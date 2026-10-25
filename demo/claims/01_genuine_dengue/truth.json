@@ -1,0 +1,9 @@
+{
+  "claim_id": "01_genuine_dengue",
+  "diagnosis": "dengue",
+  "genuine": true,
+  "forgery_type": null,
+  "variant": null,
+  "changed_document": null,
+  "description": "Unchanged genuine claim"
+}

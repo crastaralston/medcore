@@ -1,0 +1,10 @@
+{
+  "claim_id": "09",
+  "diagnosis": "typhoid",
+  "genuine": false,
+  "sealed": true,
+  "forgery_type": "S2",
+  "variant": "borrowed_sealed_report",
+  "changed_document": "lab_report_1.pdf",
+  "description": "lab_report_1.pdf is a genuine sealed report, but it belongs to Lila Patla's stay IPD/26/94295, not this patient's stay IPD/26/59291"
+}

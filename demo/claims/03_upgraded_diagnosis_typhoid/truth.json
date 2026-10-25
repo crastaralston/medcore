@@ -1,0 +1,9 @@
+{
+  "claim_id": "03_upgraded_diagnosis_typhoid",
+  "diagnosis": "typhoid",
+  "genuine": false,
+  "forgery_type": "F2",
+  "variant": "diagnosis_upgrade",
+  "changed_document": "discharge_summary.pdf",
+  "description": "Diagnosis changed from 'Enteric fever (Typhoid)' to 'Dengue fever with thrombocytopenia' on summary and bill"
+}

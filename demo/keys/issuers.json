@@ -1,0 +1,68 @@
+[
+  {
+    "id": "shree-sai-multispeciality-hospital",
+    "name": "Shree Sai Multispeciality Hospital",
+    "kind": "hospital",
+    "address": "Ghodbunder Road, Thane West, Maharashtra 400615"
+  },
+  {
+    "id": "navjeevan-nursing-home",
+    "name": "Navjeevan Nursing Home",
+    "kind": "hospital",
+    "address": "Sector 17, Vashi, Navi Mumbai, Maharashtra 400703"
+  },
+  {
+    "id": "aarogya-care-hospital",
+    "name": "Aarogya Care Hospital",
+    "kind": "hospital",
+    "address": "LBS Marg, Ghatkopar West, Mumbai, Maharashtra 400086"
+  },
+  {
+    "id": "sanjeevani-general-hospital",
+    "name": "Sanjeevani General Hospital",
+    "kind": "hospital",
+    "address": "Old Panvel, Raigad, Maharashtra 410206"
+  },
+  {
+    "id": "kalpataru-surgical-hospital",
+    "name": "Kalpataru Surgical Hospital",
+    "kind": "hospital",
+    "address": "SV Road, Borivali West, Mumbai, Maharashtra 400092"
+  },
+  {
+    "id": "precision-pathology-laboratory",
+    "name": "Precision Pathology Laboratory",
+    "kind": "lab",
+    "address": "Naupada, Thane West, Maharashtra 400602"
+  },
+  {
+    "id": "accucheck-diagnostic-centre",
+    "name": "Accucheck Diagnostic Centre",
+    "kind": "lab",
+    "address": "Sector 9, Vashi, Navi Mumbai, Maharashtra 400703"
+  },
+  {
+    "id": "lifecare-path-lab",
+    "name": "Lifecare Path Lab",
+    "kind": "lab",
+    "address": "Andheri East, Mumbai, Maharashtra 400069"
+  },
+  {
+    "id": "shree-ganesh-medical-general-stores",
+    "name": "Shree Ganesh Medical & General Stores",
+    "kind": "pharmacy",
+    "address": "Thane West, Maharashtra 400615"
+  },
+  {
+    "id": "om-sai-chemist",
+    "name": "Om Sai Chemist",
+    "kind": "pharmacy",
+    "address": "Vashi, Navi Mumbai, Maharashtra 400703"
+  },
+  {
+    "id": "mahalaxmi-pharmacy",
+    "name": "Mahalaxmi Pharmacy",
+    "kind": "pharmacy",
+    "address": "Ghatkopar West, Mumbai, Maharashtra 400086"
+  }
+]

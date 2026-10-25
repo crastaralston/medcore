@@ -1,0 +1,10 @@
+{
+  "claim_id": "08",
+  "diagnosis": "dengue",
+  "genuine": false,
+  "sealed": true,
+  "forgery_type": "S1",
+  "variant": "sealed_then_edited",
+  "changed_document": "lab_report_1.pdf",
+  "description": "After sealing, platelet Count changed from 1,13,000 to 30,000, and the original QR code was copied onto the edited page"
+}

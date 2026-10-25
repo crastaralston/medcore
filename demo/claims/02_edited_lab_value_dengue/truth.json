@@ -1,0 +1,9 @@
+{
+  "claim_id": "02_edited_lab_value_dengue",
+  "diagnosis": "dengue",
+  "genuine": false,
+  "forgery_type": "F2",
+  "variant": "lab_value",
+  "changed_document": "lab_report_1.pdf",
+  "description": "Platelet Count changed from 89,000 to 36,000"
+}

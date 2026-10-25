@@ -1,0 +1,40 @@
+[project]
+name = "medcore-verify"
+version = "0.1.0"
+description = "Detect forged and inconsistent documents in health insurance claim files"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "sqlalchemy",
+    "python-multipart",
+    "pymupdf",
+    "pillow",
+    "opencv-python-headless",
+    "numpy",
+    "imagehash",
+    "reportlab",
+    "faker",
+    "rapidfuzz",
+    "pytesseract",
+    "cryptography",
+    "qrcode[pil]",
+    "zxing-cpp",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "httpx"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["medcore_verify*"]
+
+[tool.setuptools.package-data]
+medcore_verify = ["checks/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore:builtin type .* has no __module__ attribute:DeprecationWarning"]

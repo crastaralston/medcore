@@ -1,0 +1,9 @@
+{
+  "claim_id": "05_padded_room_days_typhoid",
+  "diagnosis": "typhoid",
+  "genuine": false,
+  "forgery_type": "F2",
+  "variant": "room_days",
+  "changed_document": "hospital_bill.pdf",
+  "description": "Room rent and nursing billed for 3 extra days; total updated to match"
+}

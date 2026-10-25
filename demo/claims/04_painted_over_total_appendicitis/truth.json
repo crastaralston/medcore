@@ -1,0 +1,9 @@
+{
+  "claim_id": "04_painted_over_total_appendicitis",
+  "diagnosis": "appendicitis",
+  "genuine": false,
+  "forgery_type": "F5",
+  "variant": "overlay_total",
+  "changed_document": "hospital_bill.pdf",
+  "description": "Grand total painted over: 79,350.00 -> 94,350.00"
+}

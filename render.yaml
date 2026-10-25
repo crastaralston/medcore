@@ -1,0 +1,10 @@
+# Render Blueprint: free web service built from the Dockerfile.
+services:
+  - type: web
+    name: medcore
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: MEDCORE_ADMIN_TOKEN
+        generateValue: true

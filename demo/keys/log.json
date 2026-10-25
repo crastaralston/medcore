@@ -1,0 +1,152 @@
+[
+  {
+    "kind": "seal",
+    "doc_id": "XSW4MLZ86SNM",
+    "issuer_id": "kalpataru-surgical-hospital",
+    "doc_type": "discharge_summary",
+    "stay_id": "IPD/26/83524",
+    "created_at": "2026-10-25T14:02:46.516967+00:00",
+    "payload_hash": "4661e12c0ced0de6b7570ee8ecad33c9c1e14e41114d121fc7d2db5e6c3b5e35",
+    "reason": null
+  },
+  {
+    "kind": "seal",
+    "doc_id": "MNV8B5DWFUUA",
+    "issuer_id": "kalpataru-surgical-hospital",
+    "doc_type": "hospital_bill",
+    "stay_id": "IPD/26/83524",
+    "created_at": "2026-10-25T14:02:46.628250+00:00",
+    "payload_hash": "51438db00d426b581337ea9b0d11e1d8f081d375f1cd858577fe09693df712e1",
+    "reason": null
+  },
+  {
+    "kind": "seal",
+    "doc_id": "REYKVYPEKUYA",
+    "issuer_id": "mahalaxmi-pharmacy",
+    "doc_type": "pharmacy_bill",
+    "stay_id": "IPD/26/83524",
+    "created_at": "2026-10-25T14:02:46.736567+00:00",
+    "payload_hash": "6b3651fd80ffe3af71d41cea32f5573c7c429c18fe9cd6da46d19fd89290e988",
+    "reason": null
+  },
+  {
+    "kind": "seal",
+    "doc_id": "2LWHNKJZESHK",
+    "issuer_id": "accucheck-diagnostic-centre",
+    "doc_type": "lab_report",
+    "stay_id": "IPD/26/83524",
+    "created_at": "2026-10-25T14:02:46.852315+00:00",
+    "payload_hash": "f4f4567f401d791d5f7596e45acf2ee6b9c23b1e6a20fe80077269dfdd607ff0",
+    "reason": null
+  },
+  {
+    "kind": "seal",
+    "doc_id": "BHLX24J2DWHN",
+    "issuer_id": "accucheck-diagnostic-centre",
+    "doc_type": "lab_report",
+    "stay_id": "IPD/26/83524",
+    "created_at": "2026-10-25T14:02:46.965364+00:00",
+    "payload_hash": "7d49da9ed97bb9218133a9b0a01be7466de18dd28fce6ebbe3de6d62579fcc7d",
+    "reason": null
+  },
+  {
+    "kind": "seal",
+    "doc_id": "UF7F7Z2C9RZK",
+    "issuer_id": "kalpataru-surgical-hospital",
+    "doc_type": "discharge_summary",
+    "stay_id": "IPD/26/98115",
+    "created_at": "2026-10-25T14:02:47.085453+00:00",
+    "payload_hash": "49608a7b16486d1879c50f28e1a0e525b81dacdf09e74661c8765ce6d18d56ec",
+    "reason": null
+  },
+  {
+    "kind": "seal",
+    "doc_id": "X5G8LXGWWJ7Y",
+    "issuer_id": "kalpataru-surgical-hospital",
+    "doc_type": "hospital_bill",
+    "stay_id": "IPD/26/98115",
+    "created_at": "2026-10-25T14:02:47.240220+00:00",
+    "payload_hash": "b7707d6f86fa644b4aaedc54f2c53205ba934c9df14bee4a16366193be3f5c56",
+    "reason": null
+  },
+  {
+    "kind": "seal",
+    "doc_id": "S9H4E3LGSAU6",
+    "issuer_id": "mahalaxmi-pharmacy",
+    "doc_type": "pharmacy_bill",
+    "stay_id": "IPD/26/98115",
+    "created_at": "2026-10-25T14:02:47.351484+00:00",
+    "payload_hash": "432b48af76355cd1a95174a2124a2ccf65776824309fea421a7f58a87265ab03",
+    "reason": null
+  },
+  {
+    "kind": "seal",
+    "doc_id": "G2ANMKEYMNUK",
+    "issuer_id": "precision-pathology-laboratory",
+    "doc_type": "lab_report",
+    "stay_id": "IPD/26/98115",
+    "created_at": "2026-10-25T14:02:47.516363+00:00",
+    "payload_hash": "2f2ae84fbed7460dfda23a4c0d95dfdeaea3cfd0790aacf8b3d54410e2824285",
+    "reason": null
+  },
+  {
+    "kind": "seal",
+    "doc_id": "352WJTP8Q59Z",
+    "issuer_id": "precision-pathology-laboratory",
+    "doc_type": "lab_report",
+    "stay_id": "IPD/26/98115",
+    "created_at": "2026-10-25T14:02:47.628723+00:00",
+    "payload_hash": "6868fff3647e770c9d5f84d28dad3e0cccfc4af57ce489ad398256ac05ef454f",
+    "reason": null
+  },
+  {
+    "kind": "seal",
+    "doc_id": "AVDTNQECUSXM",
+    "issuer_id": "shree-sai-multispeciality-hospital",
+    "doc_type": "discharge_summary",
+    "stay_id": "IPD/26/59291",
+    "created_at": "2026-10-25T14:02:47.778757+00:00",
+    "payload_hash": "6b576b5bbeec8f1a40945ac35b91258b5eeb189599755001d49d1fdf8e2461e6",
+    "reason": null
+  },
+  {
+    "kind": "seal",
+    "doc_id": "W2W3MTXKUUMV",
+    "issuer_id": "shree-sai-multispeciality-hospital",
+    "doc_type": "hospital_bill",
+    "stay_id": "IPD/26/59291",
+    "created_at": "2026-10-25T14:02:47.891617+00:00",
+    "payload_hash": "a62f24998685e2e43b48b6e71c3460f29b8281afb01402a1ca2f7c6ee4160b84",
+    "reason": null
+  },
+  {
+    "kind": "seal",
+    "doc_id": "KREJTUGMXJDA",
+    "issuer_id": "mahalaxmi-pharmacy",
+    "doc_type": "pharmacy_bill",
+    "stay_id": "IPD/26/59291",
+    "created_at": "2026-10-25T14:02:48.000594+00:00",
+    "payload_hash": "cd86aa456b09d6d4bb7144dd3a60773d8860610e1e295adb76a217712e44a13b",
+    "reason": null
+  },
+  {
+    "kind": "seal",
+    "doc_id": "BFX88DG3R5U2",
+    "issuer_id": "accucheck-diagnostic-centre",
+    "doc_type": "lab_report",
+    "stay_id": "IPD/26/59291",
+    "created_at": "2026-10-25T14:02:48.115468+00:00",
+    "payload_hash": "50fd3b241dc67da9150939d18ad761e64a48f7d1c1d657951b6f8f493d22af5a",
+    "reason": null
+  },
+  {
+    "kind": "seal",
+    "doc_id": "5ZKVJADAMLZK",
+    "issuer_id": "lifecare-path-lab",
+    "doc_type": "lab_report",
+    "stay_id": "IPD/26/94295",
+    "created_at": "2026-10-25T14:02:48.236805+00:00",
+    "payload_hash": "989b5b4847b930b6ac35930416df45307cbfbd16d0f2bb66bd962e4503e53078",
+    "reason": null
+  }
+]

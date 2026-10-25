@@ -1,0 +1,11 @@
+{
+  "name": "MedCore",
+  "image": "mcr.microsoft.com/devcontainers/python:3.13",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": { "version": "22" }
+  },
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y tesseract-ocr && python -m venv .venv && .venv/bin/pip install -e 'backend[dev]' && npm --prefix frontend ci && npm --prefix frontend run build",
+  "postStartCommand": "nohup .venv/bin/uvicorn medcore_verify.api:app --app-dir backend --host 0.0.0.0 --port 8000 > /tmp/medcore.log 2>&1 &",
+  "forwardPorts": [8000],
+  "portsAttributes": { "8000": { "label": "MedCore", "onAutoForward": "openBrowser" } }
+}

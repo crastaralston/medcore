@@ -1,0 +1,240 @@
+{
+  "_note": "Simplified rules for testing claim documents. Not clinical advice. Sources to review in week 1: PM-JAY Standard Treatment Guidelines and national dengue, enteric fever and appendicitis guidelines.",
+  "tests": {
+    "platelet count": {
+      "label": "Platelet count",
+      "aliases": [
+        "platelet count",
+        "platelets",
+        "plt count"
+      ],
+      "kind": "number",
+      "plausible": [
+        1000,
+        2000000
+      ],
+      "normal": [
+        150000,
+        450000
+      ],
+      "unit": "/cumm",
+      "quotable": true
+    },
+    "total wbc count": {
+      "label": "Total WBC count",
+      "aliases": [
+        "total wbc count",
+        "total leucocyte count",
+        "wbc count",
+        "tlc"
+      ],
+      "kind": "number",
+      "plausible": [
+        100,
+        200000
+      ],
+      "normal": [
+        4000,
+        11000
+      ],
+      "unit": "/cumm",
+      "quotable": true
+    },
+    "haemoglobin": {
+      "label": "Haemoglobin",
+      "aliases": [
+        "haemoglobin",
+        "hemoglobin"
+      ],
+      "kind": "number",
+      "plausible": [
+        2,
+        25
+      ],
+      "normal": [
+        12,
+        17
+      ],
+      "unit": "g/dL"
+    },
+    "haematocrit": {
+      "label": "Haematocrit",
+      "aliases": [
+        "haematocrit (pcv)",
+        "haematocrit",
+        "hematocrit",
+        "pcv"
+      ],
+      "kind": "number",
+      "plausible": [
+        10,
+        75
+      ],
+      "normal": [
+        36,
+        50
+      ],
+      "unit": "%"
+    },
+    "ns1 antigen": {
+      "label": "NS1 antigen",
+      "aliases": [
+        "ns1 antigen (dengue)",
+        "ns1 antigen",
+        "dengue ns1"
+      ],
+      "kind": "qualitative"
+    },
+    "dengue igm": {
+      "label": "Dengue IgM",
+      "aliases": [
+        "dengue igm antibody",
+        "dengue igm"
+      ],
+      "kind": "qualitative"
+    },
+    "widal o": {
+      "label": "Widal test (O)",
+      "aliases": [
+        "widal test (s. typhi o)",
+        "s. typhi o",
+        "typhi o"
+      ],
+      "kind": "titre",
+      "positive_from": 160,
+      "quotable": true
+    },
+    "widal h": {
+      "label": "Widal test (H)",
+      "aliases": [
+        "widal test (s. typhi h)",
+        "s. typhi h",
+        "typhi h"
+      ],
+      "kind": "titre",
+      "positive_from": 160
+    },
+    "typhidot igm": {
+      "label": "Typhidot IgM",
+      "aliases": [
+        "typhidot igm",
+        "typhidot"
+      ],
+      "kind": "qualitative"
+    },
+    "blood culture": {
+      "label": "Blood culture",
+      "aliases": [
+        "blood culture"
+      ],
+      "kind": "qualitative"
+    },
+    "usg abdomen": {
+      "label": "USG abdomen",
+      "aliases": [
+        "usg abdomen",
+        "ultrasound abdomen",
+        "usg (abdomen)"
+      ],
+      "kind": "qualitative"
+    },
+    "ct abdomen": {
+      "label": "CT abdomen",
+      "aliases": [
+        "cect abdomen",
+        "ct abdomen"
+      ],
+      "kind": "qualitative"
+    }
+  },
+  "positive_words": [
+    "positive",
+    "reactive",
+    "isolated",
+    "suggestive of",
+    "detected"
+  ],
+  "negative_words": [
+    "negative",
+    "non reactive",
+    "non-reactive",
+    "not detected",
+    "no growth",
+    "normal study",
+    "no evidence"
+  ],
+  "surgical_bill_items": [
+    "operation theatre",
+    "ot charges",
+    "surgeon",
+    "anaesthetist",
+    "anesthetist"
+  ],
+  "diagnoses": {
+    "dengue": {
+      "label": "Dengue fever",
+      "aliases": [
+        "dengue"
+      ],
+      "confirm_any": [
+        "ns1 antigen",
+        "dengue igm"
+      ],
+      "thrombocytopenia_test": "platelet count",
+      "repeat_test": {
+        "test": "platelet count",
+        "min_count": 2,
+        "if_stay_at_least": 2
+      },
+      "stay_days": [
+        2,
+        7
+      ],
+      "avoid_drugs": [
+        "aspirin",
+        "ibuprofen",
+        "diclofenac",
+        "nimesulide",
+        "mefenamic"
+      ],
+      "surgical": false
+    },
+    "typhoid": {
+      "label": "Enteric fever (typhoid)",
+      "aliases": [
+        "enteric fever",
+        "typhoid"
+      ],
+      "confirm_any": [
+        "widal o",
+        "widal h",
+        "typhidot igm",
+        "blood culture"
+      ],
+      "stay_days": [
+        3,
+        10
+      ],
+      "surgical": false
+    },
+    "appendicitis": {
+      "label": "Acute appendicitis",
+      "aliases": [
+        "appendicitis"
+      ],
+      "confirm_any": [
+        "usg abdomen",
+        "ct abdomen"
+      ],
+      "procedure_words": [
+        "appendicectomy",
+        "appendectomy"
+      ],
+      "stay_days": [
+        1,
+        5
+      ],
+      "surgical": true
+    }
+  }
+}
